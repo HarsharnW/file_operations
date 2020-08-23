@@ -32,8 +32,6 @@ public class ExcelReader {
                 System.out.println(cell);
             }
 
-        } catch (FileNotFoundException e) {
-            e.printStackTrace();
         } catch (IOException e) {
             e.printStackTrace();
         }
